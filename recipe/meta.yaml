@@ -10,7 +10,7 @@ source:
   md5: eaa69afa7b82b3309e5010aeeccbd1fc
 
 build:
-  number: 2
+  number: 3
   skip: true  # [win]
 
 requirements:
@@ -27,7 +27,7 @@ requirements:
     - bob.learn.linear
     - cmake
     - pkg-config
-    - boost 1.60.*
+    - boost 1.61.*
 
   run:
     - python
@@ -39,7 +39,7 @@ requirements:
     - bob.math
     - bob.learn.activation
     - bob.learn.linear
-    - boost 1.60.*
+    - boost 1.61.*
 
 test:
   commands:
