@@ -1,4 +1,4 @@
-{% set version = "2.0.9" %}
+{% set version = "2.0.10" %}
 
 package:
   name: bob.learn.em
@@ -7,7 +7,7 @@ package:
 source:
   fn: bob.learn.em-{{ version }}.zip
   url: https://pypi.io/packages/source/b/bob.learn.em/bob.learn.em-{{ version }}.zip
-  md5: ac2e39cd62a2c4072a83985c1e8f1445
+  md5: 87c5f49152f5269ff717b543693df068
 
 build:
   number: 0
@@ -55,7 +55,7 @@ test:
     - nose
 
 about:
-  home: http://github.com/bioidiap/bob.learn.em
+  home: https://www.idiap.ch/software/bob/
   license: Modified BSD License (3-clause)
   summary: Bindings for emelaneous machines and trainers of Bob
 
