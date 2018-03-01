@@ -1,4 +1,4 @@
-{% set version = "2.0.11" %}
+{% set version = "2.1.0" %}
 
 package:
   name: bob.learn.em
@@ -7,7 +7,7 @@ package:
 source:
   fn: bob.learn.em-{{ version }}.zip
   url: https://pypi.io/packages/source/b/bob.learn.em/bob.learn.em-{{ version }}.zip
-  md5: 8e772b4f4c3f7e3b3ad28fc760f2a8b2
+  md5: 59486aa4a66b8b7fdd48bd52f5686cfd
 
 build:
   number: 0
